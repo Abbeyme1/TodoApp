@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.tasks {
+    height: 50vh;
+    width: 40vw;
+    
+}
+
+.taskList {
+    background-color: rgb(241, 241, 241);
+    height: 80%;
+    width: 80%;
+    margin: 5vh auto;
+    box-shadow: 5px 10px 8px 0.05px #cecdcd;
+}
+.taskList h2{
+    font-size: 2rem;
+    font-family:'system-ui';
+    padding: 10px 0 5px 10px;
+    
+}
+.taskList .desc{
+    font-size: 0.8rem;
+    font-weight:500;
+    color: gray;
+    font-family:'system-ui';
+    padding: 10px 0 5px 10px;
+    
+    
+}
+
+#allTasks div
+{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 5px 10px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+#allTasks div p
+{
+    flex-grow: 8;
+    color: grey;
+}
+#allTasks div input
+{
+    flex-grow: 1;
+    margin-right: 8px;
+}
+#allTasks div span
+{
+    font-size: 1.2rem;
+    flex-grow: 1;
+    cursor: pointer;
+    transform: translateY(-5px)
+    
+}
+
+
+
+.inputArea {
+    height: 50vh;
+    width: 60vw;
+}
+
+.inputArea input {
+    margin: 10% 0 0 5%;
+    background-color: transparent;
+    border: 0;
+    font-size: 5rem;
+}
+
+
